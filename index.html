@@ -5,11 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Chronicles of Sunflower Grove</title>
     <style>
-    body { background: black; text-align: center; }
+    body { background: black; color: white; text-align: center; }
     h1, h3, h5, a { font-family: sans-serif; color: white; }
+    h2 { margin-bottom: 0; }
+    h4 { margin-top: 0; font-style: italic; }
+    .book {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .book-cover {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .book-info {
+      text-align: center;
+    }
+
+    .book-description {
+      text-align: left;
+    }
+
+    /* Media query for screens wider than 600px */
+    @media (min-width: 600px) {
+      .book {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .book-cover {
+        max-width: 50%;
+        margin-right: 20px;
+      }
+
+      .book-info {
+        text-align: left;
+      }
+    }
     </style>
   </head>
   <body onload="load()">
-    <h1>The Chronicles of Sunflower Grove</h1>
+    <a href="https://amzn.to/4bKgULZ">
+      <h1>The Chronicles of Sunflower Grove</h1>
+    </a>
+    <div class="book">
+      <a href="https://amzn.to/3SGMXnw" class="book-cover">
+        <img src="emma.jpg" width="174" height="261" alt="Emma’s Artistic Adventure">
+      </a>
+      <div class="book-info">
+        <a href="https://amzn.to/3SGMXnw">
+          <h2 class="book-title">Emma’s Artistic Adventure</h2>
+          <h4 class="book-subtitle">A Tale of Blueberry Whiskers</h4>
+        </a>
+        <p class="book-description">“Emma’s Artistic Adventures: A Tale of Blueberry Whiskers” is a charming story about Emma, a creative young girl with a passion for art. Equipped with her sketch pad and paints, she explores a vibrant sunflower field in her town, Sunflower Grove. There, amidst the colorful sunflowers, she finds an unexpected friend — a tiny robot mouse with a blueberry blue body and red checkered ears, whom she names Blueberry Whiskers. This delightful encounter inspires her art. The story beautifully intertwines themes of creativity, nature’s beauty, and the joy of unexpected friendships. Emma’s journey culminates in sharing her artwork and new companion at a local floral shop, celebrating the magic of artistic expression and community spirit.</p>
+      </div>
+    </div>
+    <hr />
+    <div class="book">
+      <a href="https://amzn.to/3wvGuUU" class="book-cover">
+        <img src="sunbean.jpg" width="174" height="261" alt="Emma’s Artistic Adventure">
+      </a>
+      <div class="book-info">
+        <a href="https://amzn.to/3wvGuUU">
+          <h2 class="book-title">Sun Bean Chuckles:</h2>
+          <h4 class="book-subtitle">A collection of short stories…</h4>
+        </a>
+        <p class="book-description">“The Chronicles of Sunflower Grove: Sun Bean Chuckles” is a collection of short stories that are set in the coffee shop Sun Bean Coffee, in the town of Sunflower Grove. The little robot barista, Brewster, finds himself in comical situations while trying to blend in with the human world. In “Made with Love” he sets out on an adventure, discovering what love is. So he can infuse his coffee with love. In “Yawning Frenzy” he finds himself in a hilarious situation of the customers having contagious yawns. In “Max & Jasper: A Latte of Laughter,” the coffee shop is left in stitches as the boys find a coffee joke book and read aloud from it. There are a couple of other chapters, but I’ll let you discover those.</p>
+      </div>
+    </div>
+    <hr />
+    <div class="book">
+      <img src="predicaments.jpg" width="174" height="261" alt="Emma’s Artistic Adventure" class="book-cover">
+      <div class="book-info">
+        <h2 class="book-title">Postal Predicaments</h2>
+        <h4 class="book-subtitle">A collection of short stories…</h4>
+        <p class="book-description">Coming soon!</p>
+      </div>
+    </div>
   </body>
 </html>
