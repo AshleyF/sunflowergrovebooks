@@ -1,0 +1,11 @@
+{
+    "seed": 42,
+    "words_and_clues": [
+        ["CARROT", "An orange veggie that rabbits love"],
+        ["FISHING", "Catching fish"],
+        ["BOAT", "It floats on water"],
+        ["PITA", "A friend with a funny name"],
+        ["STARFISH", "A star-shaped sea creature"],
+        ["SNOG", "Part snail, part dog"]
+    ]
+}

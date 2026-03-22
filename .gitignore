@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+
+# Generated maze SVGs
+maze-generator/mazes/
+
+# Generated crossword SVGs
+crossword-generator/crosswords/
+
+# Generated word search SVGs
+wordsearch-generator/wordsearches/
