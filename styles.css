@@ -1,0 +1,53 @@
+body { background: black; color: white; text-align: center; }
+h1, h2, h3, h4, h5, a { color: white; }
+h2 { margin-bottom: 0; }
+h4 { margin-top: 0; font-style: italic; }
+p { margin-left: 1em; margin-right: 1em }
+
+.sub-link,
+.back-link {
+  margin-top: 0.25em;
+  margin-bottom: 1.25em;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-cover img {
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.book-info {
+  text-align: center;
+}
+
+.book-description {
+  text-align: left;
+}
+
+@media (min-width: 600px) {
+  .book {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .book-cover {
+    max-width: 50%;
+    margin-right: 20px;
+    margin-top: 1em;
+  }
+
+  .book-info {
+    text-align: left;
+  }
+}
