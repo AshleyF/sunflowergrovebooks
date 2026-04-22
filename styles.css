@@ -8,6 +8,23 @@ p { margin-left: 1em; margin-right: 1em }
 .back-link {
   margin-top: 0.25em;
   margin-bottom: 1.25em;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+.sub-link a,
+.back-link a {
+  background: #2a2a2a;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  border: 1px solid #555;
+  text-decoration: none;
+}
+
+.sub-link a:hover,
+.back-link a:hover {
+  background: #444;
+  border-color: #aaa;
 }
 
 .book {
